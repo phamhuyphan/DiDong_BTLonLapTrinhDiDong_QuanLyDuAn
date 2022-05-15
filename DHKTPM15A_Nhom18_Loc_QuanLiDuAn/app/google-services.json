@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618569994397",
+    "project_id": "n18-quanliduan-lttbdd",
+    "storage_bucket": "n18-quanliduan-lttbdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618569994397:android:03c7e2a603fa3904ce8474",
+        "android_client_info": {
+          "package_name": "com.example.dhktpm15a_nhom18_loc_quanliduan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618569994397-euuk23n6bvmujm4berv0mr57red0dibs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLFzACNwTid15wrShMgOudMBHFDaiVl0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618569994397-euuk23n6bvmujm4berv0mr57red0dibs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

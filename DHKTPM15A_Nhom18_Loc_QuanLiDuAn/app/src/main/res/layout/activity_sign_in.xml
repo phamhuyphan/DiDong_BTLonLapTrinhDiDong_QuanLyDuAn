@@ -8,7 +8,7 @@
 
 
     <EditText
-        android:id="@+id/ed_Email"
+        android:id="@+id/textEmailLogin"
         android:layout_width="292dp"
         android:layout_height="53dp"
         android:layout_marginTop="352dp"
@@ -21,18 +21,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/ed_Password"
+        android:id="@+id/textPassLogin"
         android:layout_width="292dp"
         android:layout_height="53dp"
         android:layout_marginTop="12dp"
         android:drawableRight="@drawable/group1"
         android:ems="10"
         android:hint="Type password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_Email" />
+        app:layout_constraintTop_toBottomOf="@+id/textEmailLogin" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_Signin"
@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_Password" />
+        app:layout_constraintTop_toBottomOf="@+id/textPassLogin" />
 
     <TextView
         android:id="@+id/textView"
@@ -86,7 +86,7 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/ed_Email"
+        app:layout_constraintBottom_toTopOf="@+id/textEmailLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
