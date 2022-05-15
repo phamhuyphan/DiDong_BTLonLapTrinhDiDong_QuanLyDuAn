@@ -34,6 +34,8 @@ public class SignIn extends AppCompatActivity {
     }
 
     private void checkSignInData() {
+        txtUser.setText("user@gmail.com");
+        txtPass.setText("123456");
         String email = txtUser.getText().toString();
         String password = txtPass.getText().toString();
 

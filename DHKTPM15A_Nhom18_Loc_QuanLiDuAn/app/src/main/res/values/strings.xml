@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">DHKTPM15A_Nhom18_Loc_QuanLiDuAn</string>
+    <string name="managementTitle">Quản lí dự án</string>
+    <string name="managementDesc">Tạo và quản lí dự án của bạn</string>
+    <string name="icon">icon</string>
+    <string name="fraction">%1$d/%2$d</string>
+    <string name="dateRangeFormat">%1$s ~ %2$s</string>
+    <string name="noProject">Bạn không có bất kì project nào hiện tại. Nhấn nút "+" ở phía trên để bắt đầu tạo mới !</string>
+    <string name="totalBudgetTitle">Total</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="selectDates">Chọn ngày</string>
+    <string name="add">Thêm</string>
+    <string name="delete">Xóa</string>
+    <string name="budgetDateRangeHelp">Chọn ngày bắt đầu và kết thúc của project</string>
+    <string name="cancel">Hủy</string>
+    <string name="set">Đặt</string>
 </resources>
