@@ -43,11 +43,11 @@ public class Register extends AppCompatActivity {
             txtEmail.requestFocus();
         }
         else if(password.isEmpty()) {
-            txtPass.setError("Vui lòng nhập password để đăng nhập !");
+            txtPass.setError("Vui lòng nhập password để đăng kí !");
             txtPass.requestFocus();
         }
         else if(rePassword.isEmpty()) {
-            txtRepass.setError("Vui lòng nhập lại password để đăng nhập !");
+            txtRepass.setError("Vui lòng nhập lại password để đăng kí !");
             txtRepass.requestFocus();
         }
         else if(!password.equals(rePassword)) {
