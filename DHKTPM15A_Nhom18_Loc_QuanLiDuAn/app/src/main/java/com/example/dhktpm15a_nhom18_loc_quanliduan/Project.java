@@ -5,17 +5,15 @@ import java.util.Date;
 public class Project
 {
     public final String name;
-    public final Task[] listTask;
-    public final float progress;
+    public final float description;
     public final Date startDate;
     public final Date endDate;
 
 
-    public Project(final String name, Task[] listTask, float progress, Date startDate, Date endDate)
+    public Project(final String name, float progress, Date startDate, Date endDate)
     {
         this.name = name;
-        this.listTask = listTask;
-        this.progress = progress;
+        this.description = progress;
         this.startDate = startDate;
         this.endDate = endDate;
     }
