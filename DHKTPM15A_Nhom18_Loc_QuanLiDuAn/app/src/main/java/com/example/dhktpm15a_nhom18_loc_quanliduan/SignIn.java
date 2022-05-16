@@ -34,6 +34,7 @@ public class SignIn extends AppCompatActivity {
     }
 
     private void checkSignInData() {
+        // Remove
         txtUser.setText("user@gmail.com");
         txtPass.setText("123456");
         String email = txtUser.getText().toString();
@@ -53,7 +54,8 @@ public class SignIn extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()) {
                         Toast.makeText(SignIn.this, "Đăng nhập thành công !", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(SignIn.this, MainScreen.class));
+//                        startActivity(new Intent(SignIn.this, MainScreen.class));
+                        startActivity(new Intent(getBaseContext(), list.class));
                     }
                     else {
                         Toast.makeText(SignIn.this, "Lỗi đăng nhập: " + task.getException().toString(), Toast.LENGTH_SHORT).show();

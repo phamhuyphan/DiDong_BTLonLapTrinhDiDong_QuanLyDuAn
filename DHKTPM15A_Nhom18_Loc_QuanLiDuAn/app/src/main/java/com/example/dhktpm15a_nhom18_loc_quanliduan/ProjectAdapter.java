@@ -27,42 +27,4 @@ class ProjectAdapter extends ArrayAdapter<Project>
         ProgressBar projectBar;
         TextView projectValue;
     }
-
-//    @Override
-//    public View getView(int position, View convertView, ViewGroup parent)
-//    {
-//        // Get the data item for this position
-//        Project item = getItem(position);
-//
-//        ViewHolder holder;
-//
-//        // Check if an existing view is being reused, otherwise inflate the view
-//
-//        if (convertView == null)
-//        {
-//            convertView = LayoutInflater.from(getContext()).inflate(R.layout.project_layout,
-//                    parent, false);
-//
-//            holder = new ViewHolder();
-//            holder.projectName = (TextView) convertView.findViewById(R.id.projectName);
-//            holder.projectBar = (ProgressBar) convertView.findViewById(R.id.projectBar);
-//            holder.projectValue = (TextView) convertView.findViewById(R.id.projectValue);
-//            convertView.setTag(holder);
-//        }
-//        else
-//        {
-//            holder = (ViewHolder)convertView.getTag();
-//        }
-//
-//        holder.projectName.setText(item.name);
-//
-//        holder.projectBar.set;
-//        holder.projectBar.;
-//
-//        String fraction = String.format(FRACTION_FORMAT, item.current, item.max);
-//
-//        holder.projectValue.setText(fraction);
-//
-//        return convertView;
-//    }
 }
